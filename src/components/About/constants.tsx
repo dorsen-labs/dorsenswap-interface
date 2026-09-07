@@ -29,7 +29,7 @@ const StyledCardLogo = styled.img`
 export const MORE_CARDS = [
   {
     to: '/whatishorswap',
-    title: 'Horswap?',
+    title: 'Dorsen Labs?',
     description: 'Read more about this censorship resistant and privacy protecting Uniswap Interface.',
     lightIcon: <StyledCardLogo src={hors} alt="What is Horswap?" />,
     darkIcon: <StyledCardLogo src={hors} alt="What is Horswap?" />,
@@ -44,7 +44,7 @@ export const MORE_CARDS = [
     cta: 'Provide liquidity',
   },
   {
-    to: 'https://docs.uniswap.org',
+    to: 'https://github.com/dorsen-labs',
     external: true,
     title: 'Build dApps',
     description: 'Build apps and tools on the largest DeFi protocol on Ethereum.',

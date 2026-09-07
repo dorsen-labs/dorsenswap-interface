@@ -26,9 +26,9 @@ const Banner = styled.div<{ isDarkMode: boolean }>`
     isDarkMode
       ? `url(${meshSrc}), linear-gradient(90deg, ${colors.blueVibrant} 0%, ${colors.purple300} 100%)`
       : `url(${meshSrc}), linear-gradient(90deg, ${darken(0.1, theme.accent1)} 0%, ${lighten(
-          0.25,
-          theme.accent1
-        )} 100%);`};
+        0.25,
+        theme.accent1
+      )} 100%);`};
 
   @media screen and (min-width: ${BREAKPOINTS.lg}px) {
     height: 140px;
@@ -98,7 +98,7 @@ const ProtocolBanner = () => {
         </DescriptionText>
       </TextContainer>
       <BannerButtonContainer>
-        <BannerButton width="200px" as="a" href="https://uniswap.org" rel="noopener noreferrer" target="_blank">
+        <BannerButton width="200px" as="a" href="https://x.com/dorsenofficial" rel="noopener noreferrer" target="_blank">
           Learn more
         </BannerButton>
       </BannerButtonContainer>

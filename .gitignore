@@ -22,6 +22,7 @@
 # builds
 /build
 /dts
+git status
 
 # misc
 .DS_Store

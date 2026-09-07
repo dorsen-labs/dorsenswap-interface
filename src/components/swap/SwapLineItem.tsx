@@ -39,7 +39,7 @@ const DetailRowValue = styled(ThemedText.BodySmall)`
   text-align: right;
   overflow-wrap: break-word;
 `
-const LabelText = styled(ThemedText.BodySmall)<{ hasTooltip?: boolean }>`
+const LabelText = styled(ThemedText.BodySmall) <{ hasTooltip?: boolean }>`
   cursor: ${({ hasTooltip }) => (hasTooltip ? 'help' : 'auto')};
   color: ${({ theme }) => theme.neutral2};
 `
@@ -66,7 +66,7 @@ function FOTTooltipContent() {
         Some tokens take a fee when they are bought or sold, which is set by the token issuer. Uniswap does not receive
         any of these fees.
       </Trans>{' '}
-      <ExternalLink href="https://support.uniswap.org/hc/en-us/articles/18673568523789-What-is-a-token-fee-">
+      <ExternalLink href="https://github.com/dorsen-labs">
         Learn more
       </ExternalLink>
     </>

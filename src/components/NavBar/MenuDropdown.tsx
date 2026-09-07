@@ -135,13 +135,13 @@ export const MenuDropdown = () => {
                 </SecondaryLinkedText>
               </Box>
               <IconRow>
-                <Icon href="https://discord.com/invite/aCSKcvf5VW">
+                <Icon href="https://discord.gg/h9Q9RHcS">
                   <DiscordIconMenu className={styles.hover} width={24} height={24} color={themeVars.colors.neutral2} />
                 </Icon>
-                <Icon href="https://twitter.com/DarkFlorist">
+                <Icon href="https://x.com/dorsenofficial">
                   <TwitterIconMenu className={styles.hover} width={24} height={24} color={themeVars.colors.neutral2} />
                 </Icon>
-                <Icon href="https://github.com/DarkFlorist/Horswap">
+                <Icon href="https://github.com/dorsen-labs">
                   <GithubIconMenu className={styles.hover} width={24} height={24} color={themeVars.colors.neutral2} />
                 </Icon>
               </IconRow>

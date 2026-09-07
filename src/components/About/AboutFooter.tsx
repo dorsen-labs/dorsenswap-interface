@@ -92,13 +92,13 @@ const LogoSectionContent = () => {
   return (
     <>
       <SocialLinks>
-        <SocialLink href="https://discord.com/invite/aCSKcvf5VW" target="_blank" rel="noopener noreferrer">
+        <SocialLink href="https://discord.gg/h9Q9RHcS" target="_blank" rel="noopener noreferrer">
           <DiscordIcon size={32} />
         </SocialLink>
-        <SocialLink href="https://twitter.com/DarkFlorist" target="_blank" rel="noopener noreferrer">
+        <SocialLink href="https://x.com/dorsenofficial" target="_blank" rel="noopener noreferrer">
           <TwitterIcon size={32} />
         </SocialLink>
-        <SocialLink href="https://github.com/DarkFlorist/Horswap" target="_blank" rel="noopener noreferrer">
+        <SocialLink href="https://github.com/dorsen-labs" target="_blank" rel="noopener noreferrer">
           <GithubIcon size={32} />
         </SocialLink>
       </SocialLinks>
@@ -118,20 +118,20 @@ export const AboutFooter = () => {
           <LinkGroupTitle>App</LinkGroupTitle>
           <TextLink to="/swap">Swap</TextLink>
           <TextLink to="/pools">Pools</TextLink>
-          <TextLink to="/whatishorswap">What is Horswap?</TextLink>
+          <TextLink to="/whatishorswap">What is Dorsen?</TextLink>
         </LinkGroup>
         <LinkGroup>
           <LinkGroupTitle>Protocol</LinkGroupTitle>
-          <ExternalTextLink href="https://uniswap.org/community">Community</ExternalTextLink>
-          <ExternalTextLink href="https://uniswap.org/governance">Governance</ExternalTextLink>
-          <ExternalTextLink href="https://uniswap.org/developers">Developers</ExternalTextLink>
+          <ExternalTextLink href="https://x.com/dorsenofficial">Community</ExternalTextLink>
+          <ExternalTextLink href="https://x.com/dorsenofficial">Governance</ExternalTextLink>
+          <ExternalTextLink href="https://github.com/dorsen-labs">Developers</ExternalTextLink>
         </LinkGroup>
         <LinkGroup>
           <LinkGroupTitle>Get Help</LinkGroupTitle>
-          <ExternalTextLink href="https://discord.com/invite/aCSKcvf5VW" target="_blank" rel="noopener noreferrer">
+          <ExternalTextLink href="https://discord.gg/h9Q9RHcS" target="_blank" rel="noopener noreferrer">
             Contact Us On Discord
           </ExternalTextLink>
-          <ExternalTextLink href="https://support.uniswap.org/hc/en-us">Help Center</ExternalTextLink>
+          <ExternalTextLink href="https://x.com/dorsenofficial">Help Center</ExternalTextLink>
         </LinkGroup>
       </FooterLinks>
 

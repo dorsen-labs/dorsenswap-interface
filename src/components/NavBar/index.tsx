@@ -4,7 +4,6 @@ import Web3Status from 'components/Web3Status'
 import { useIsPoolsPage } from 'hooks/useIsPoolsPage'
 import { Box } from 'nft/components/Box'
 import { Row } from 'nft/components/Flex'
-import { HorIcon } from 'nft/components/icons'
 import { ReactNode, useCallback } from 'react'
 import { NavLink, NavLinkProps, useLocation, useNavigate } from 'react-router-dom'
 import styled from 'styled-components'
@@ -12,7 +11,7 @@ import styled from 'styled-components'
 import { useIsNavSearchInputVisible } from '../../nft/hooks/useIsNavSearchInputVisible'
 import Blur from './Blur'
 import { ChainSelector } from './ChainSelector'
-import { MenuDropdown } from './MenuDropdown'
+import { MoreDropdown } from './MoreDropdown'
 import * as styles from './style.css'
 
 const Nav = styled.nav`
@@ -57,12 +56,13 @@ export const PageTabs = () => {
       <MenuItem href="/pools" dataTestId="pool-nav-link" isActive={isPoolActive}>
         <Trans>Pools</Trans>
       </MenuItem>
-      <MenuItem href="/whatishorswap">
-        <Trans>What is Horswap?</Trans>
+      <MenuItem href="/token-suite">
+        <Trans>Token Suite</Trans>
       </MenuItem>
-      <Box marginY="4">
-        <MenuDropdown />
-      </Box>
+      <MenuItem href="/launchpad">
+        <Trans>Launchpad</Trans>
+      </MenuItem>
+      <MoreDropdown />
     </>
   )
 }
@@ -89,14 +89,29 @@ const Navbar = ({ blur }: { blur: boolean }) => {
       <Nav>
         <Box display="flex" height="full" flexWrap="nowrap">
           <Box className={styles.leftSideContainer}>
-            <Box className={styles.logoContainer}>
-              <HorIcon
+            <Box className={styles.logoContainer} onClick={handleHorIconClick}>
+              <img
+                src="/favicon.png"
+                alt="dorsen-logo"
                 width="48"
                 height="48"
-                data-testid="horswap-logo"
+                data-testid="dorsen-logo"
                 className={styles.logo}
-                onClick={handleHorIconClick}
               />
+              <span
+                style={{
+                  fontSize: '22px',
+                  fontWeight: 'bold',
+                  background: 'linear-gradient(20deg, #1C66A6 10%, #e6faec 100%)',
+                  WebkitBackgroundClip: 'text',
+                  WebkitTextFillColor: 'transparent',
+                  backgroundClip: 'text',
+                  marginLeft: '8px',
+                  letterSpacing: '-0.5px',
+                }}
+              >
+                Dorsen
+              </span>
             </Box>
             <Box display={{ sm: 'flex', lg: 'none' }}>
               <ChainSelector leftAlign={true} />

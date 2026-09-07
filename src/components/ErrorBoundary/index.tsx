@@ -141,7 +141,7 @@ const Fallback = ({ error }: { error: Error }) => {
             <SmallButtonPrimary onClick={() => window.location.reload()}>
               <Trans>Reload the app</Trans>
             </SmallButtonPrimary>
-            <ExternalLink id="get-support-on-discord" href="https://discord.com/invite/aCSKcvf5VW" target="_blank">
+            <ExternalLink id="get-support-on-discord" href="https://discord.gg/h9Q9RHcS" target="_blank">
               <SmallButtonLight>
                 <Trans>Get support</Trans>
               </SmallButtonLight>

@@ -1,7 +1,7 @@
 {
-  "name": "Dorsanswap",
+  "name": "dorsenswap",
   "version": "1.0.0",
-  "description": "Dorsanswap Interface",
+  "description": "Dorsenswap Interface",
   "license": "GPL-3.0-or-later",
   "scripts": {
     "ajv": "node scripts/compile-ajv-validators.js",

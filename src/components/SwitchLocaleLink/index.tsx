@@ -38,7 +38,7 @@ export function SwitchLocaleLink() {
   return (
     <Container>
       <p>
-        Dorsanswap available in:{' '}
+        Dorsenswap available in:{' '}
         <StyledInternalLink onClick={onClick} to={to}>
           {LOCALE_LABEL[targetLocale]}
         </StyledInternalLink>

@@ -1,7 +1,7 @@
 {
-  "name": "@darkflorist/horswap",
+  "name": "Dorsanswap",
   "version": "1.0.0",
-  "description": "Horswap Interface",
+  "description": "Dorsanswap Interface",
   "license": "GPL-3.0-or-later",
   "scripts": {
     "ajv": "node scripts/compile-ajv-validators.js",

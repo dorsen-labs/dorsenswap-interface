@@ -9,6 +9,7 @@ import GNOSIS_ICON from 'assets/images/gnosis.png'
 import HORSWAP_LOGO from 'assets/svg/logo.svg'
 import COINBASE_ICON from 'assets/wallets/coinbase-icon.svg'
 import { isMobile } from 'utils/userAgent'
+import Dorsanswap_LOGO from 'assets/svg/Dorsenswap_LOGO.svg'
 
 import { RPC_URLS } from '../constants/networks'
 import { RPC_PROVIDERS } from '../constants/providers'
@@ -72,8 +73,8 @@ const [web3CoinbaseWallet, web3CoinbaseWalletHooks] = initializeConnector<Coinba
       actions,
       options: {
         url: RPC_URLS[ChainId.MAINNET][0],
-        appName: 'Horswap',
-        appLogoUrl: HORSWAP_LOGO,
+        appName: 'Dorsenswap',
+        appLogoUrl: Dorsanswap_LOGO,
         reloadOnDisconnect: false,
       },
       onError,

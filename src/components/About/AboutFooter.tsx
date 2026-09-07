@@ -118,7 +118,7 @@ export const AboutFooter = () => {
           <LinkGroupTitle>App</LinkGroupTitle>
           <TextLink to="/swap">Swap</TextLink>
           <TextLink to="/pools">Pools</TextLink>
-          <TextLink to="/whatishorswap">What is Dorsen?</TextLink>
+          {/* <TextLink to="/whatishorswap">What is Dorsen?</TextLink> */}
         </LinkGroup>
         <LinkGroup>
           <LinkGroupTitle>Protocol</LinkGroupTitle>

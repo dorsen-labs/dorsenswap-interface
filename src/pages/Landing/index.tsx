@@ -191,7 +191,7 @@ const ButtonCTA = styled(LandingButton)`
   transition: ${({ theme }) => `all ${theme.transition.duration.medium} ${theme.transition.timing.ease}`};
 
   &:hover {
-    box-shadow: 0px 0px 16px 0px #00ff38;
+    box-shadow: 0px 0px 16px 0px #3DBCD9;
   }
 `
 
@@ -269,18 +269,18 @@ const CardGrid = styled.div<{ cols: number }>`
   @media screen and (min-width: ${BREAKPOINTS.sm}px) {
     // At this screen size, we show up to 2 columns.
     grid-template-columns: ${({ cols }) =>
-      Array.from(Array(cols === 2 ? 2 : 1))
-        .map(() => '1fr')
-        .join(' ')};
+    Array.from(Array(cols === 2 ? 2 : 1))
+      .map(() => '1fr')
+      .join(' ')};
     gap: 32px;
   }
 
   @media screen and (min-width: ${BREAKPOINTS.lg}px) {
     // at this screen size, always show the max number of columns
     grid-template-columns: ${({ cols }) =>
-      Array.from(Array(cols))
-        .map(() => '1fr')
-        .join(' ')};
+    Array.from(Array(cols))
+      .map(() => '1fr')
+      .join(' ')};
     gap: 32px;
   }
 `

@@ -1,10 +1,10 @@
 {
   "background_color": "#fff",
   "display": "standalone",
-  "homepage_url": "https://github.com/DarkFlorist/Horswap",
+  "homepage_url": "https://github.com/dorsen-labs/dorsenswap-interface",
   "providedBy": {
-    "name": "Dark Florist",
-    "url": "https://dark.florist/"
+    "name": "Dorsen Labs",
+    "url": "https://dorsen.org/"
   },
   "icons": [
     {
@@ -21,10 +21,10 @@
     }
   ],
   "orientation": "portrait",
-  "name": "Dorsanswap",
-  "description": "Swap or provide liquidity on the Uniswap Protocol",
+  "name": "Dorsenswap",
+  "description": "Swap or provide liquidity on the Dorsenswap Protocol",
   "iconPath": "./images/256x256_App_Icon_Pink.svg",
-  "short_name": "Dorsanswap",
+  "short_name": "Dorsenswap",
   "start_url": ".",
   "theme_color": "#75ff72"
 }

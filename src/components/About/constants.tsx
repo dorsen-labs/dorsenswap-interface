@@ -28,7 +28,8 @@ const StyledCardLogo = styled.img`
 
 export const MORE_CARDS = [
   {
-    to: '/whatishorswap',
+    to: 'https://dorsen.org',
+    external: true,
     title: 'Dorsen Labs?',
     description: 'Read more about this censorship resistant and privacy protecting Dorsenswap Interface.',
     lightIcon: <StyledCardLogo src={hors} alt="What is Dorsenswap?" />,

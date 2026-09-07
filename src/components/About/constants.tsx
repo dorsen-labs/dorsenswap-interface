@@ -12,7 +12,7 @@ export const MAIN_CARDS = [
   {
     to: '/swap',
     title: 'Swap tokens',
-    description: 'Buy, sell, and explore tokens on Dorsen, Polygon, Optimism, and more.',
+    description: 'Buy, sell, and explore tokens on Dorsen, Ethereum, Bsc, Polygon, and more.',
     cta: 'Trade Tokens',
     darkBackgroundImgSrc: swapCardImgSrc,
     lightBackgroundImgSrc: swapCardImgSrc,
@@ -31,8 +31,8 @@ export const MORE_CARDS = [
     to: '/whatishorswap',
     title: 'Dorsen Labs?',
     description: 'Read more about this censorship resistant and privacy protecting Dorsenswap Interface.',
-    lightIcon: <StyledCardLogo src={hors} alt="What is Dorsanswap?" />,
-    darkIcon: <StyledCardLogo src={hors} alt="What is Dorsanswap?" />,
+    lightIcon: <StyledCardLogo src={hors} alt="What is Dorsenswap?" />,
+    darkIcon: <StyledCardLogo src={hors} alt="What is Dorsenswap?" />,
     cta: 'Read more',
   },
   {

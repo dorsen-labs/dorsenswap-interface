@@ -24,7 +24,10 @@ const Banner = styled.div<{ isDarkMode: boolean }>`
 
   background: ${({ isDarkMode, theme }) =>
     isDarkMode
-      ? `url(${meshSrc}), linear-gradient(90deg, ${colors.blueVibrant} 0%, ${colors.purple300} 100%)`
+      ? `url(${meshSrc}), linear-gradient(90deg, ${darken(0.1, theme.accent1)} 0%, ${lighten(
+        0.25,
+        theme.accent1
+      )} 100%);`
       : `url(${meshSrc}), linear-gradient(90deg, ${darken(0.1, theme.accent1)} 0%, ${lighten(
         0.25,
         theme.accent1
@@ -92,7 +95,7 @@ const ProtocolBanner = () => {
   return (
     <Banner isDarkMode={isDarkMode}>
       <TextContainer>
-        <HeaderText>Powered by the Uniswap Protocol</HeaderText>
+        <HeaderText>Powered by the Dorsenswap Protocol</HeaderText>
         <DescriptionText>
           The leading decentralized crypto trading protocol, governed by a global community.
         </DescriptionText>

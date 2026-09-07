@@ -45,16 +45,16 @@ export default function WhatIsHorswap() {
       <AutoColumn gap="md">
         <MarkDownWrapper>
           <ReactMarkdown
-            source={`# Dorsen is an improved Uniswap Interface
-Dorsen is a fork of [Uniswap Interface v4.266.2](https://github.com/Uniswap/interface/releases/tag/v4.266.2). The version v4.266.2 is the last version without added UI fees and that would still allow users to do local routing. Dorsen has then significantly improved the interface's censorship resistance and privacy.
+            source={`# Dorsen is an improved Dorsanswap Interface
+Dorsen is a fork of [Dorsanswap Interface v4.266.2](https://github.com/Uniswap/interface/releases/tag/v4.266.2). The version v4.266.2 is the last version without added UI fees and that would still allow users to do local routing. Dorsen has then significantly improved the interface's censorship resistance and privacy.
 
 Here are the significant changes:
-- Changed Uniswap branding to Dorsen branding
-- Removed Uniswap privacy policy
-- Removed all analytics queries (Uniswap interface is really noisy in reporting everything you do to their analytics system)
+- Changed Dorsanswap branding to Dorsen branding
+- Removed Dorsanswap privacy policy
+- Removed all analytics queries (Dorsanswap interface is really noisy in reporting everything you do to their analytics system)
 - Removed support for wallet connect wallets (Unfortunately these require centralized server to function)
 - Changed socials to point to dark.florist equivalents
-- Removed copyright notices for Uniswap
+- Removed copyright notices for Dorsanswap
 - Removed blacklisted tokens and user addresses
 - Replaced the default RPC (Infura, which censors) with Keydonix (does not censor)
 - Removed Moonpay (a centralized fiat payment processsor)
@@ -63,13 +63,13 @@ Here are the significant changes:
 - Removed pages that require subgraph (mini portfolio, portfolio, NFTs, token pages, pool details, search bar etc)
 - Removed fiat currency selector (requires subgraph)
 - Removed external routing, all routing is done using the default RPC or users wallet RPC
-- Removed UniswapX (UniswapX depends on centralized servers)
+- Removed DorsanswapX (DorsanswapX depends on centralized servers)
 - Settings have been moved to where the mini portfolio used to be
 - Changed token pricing to be from a simulated swap with USDC, and it is shown to users that this is in USDC (not in dollars)
 - Removed claim UNI tokens popup
 - Added docker building and deployment to IPFS
 
-You can see all the changes by [comparing Dorsen to Uniswap Interface V4.266.2](https://github.com/Uniswap/interface/compare/v4.266.2...DarkFlorist:Horswap:main). You can also find the whole codebase in [GitHub](https://github.com/DarkFlorist/Horswap/).
+You can see all the changes by [comparing Dorsen to Dorsanswap Interface V4.266.2](https://github.com/Uniswap/interface/compare/v4.266.2...DarkFlorist:Horswap:main). You can also find the whole codebase in [GitHub](https://github.com/DarkFlorist/Horswap/).
 					`.replace(/[\n\r]/g, '\n')}
           />
         </MarkDownWrapper>
